@@ -1,6 +1,5 @@
-# InOut: India's biggest community hackathon
-Landing page of InOut 4 [WIP]
-
+# Trident: Hack @ JIIT 128
+Landing page of Trident [WIP]
 
 ## How to run:
 
