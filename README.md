@@ -11,6 +11,6 @@ Landing page of Trident [WIP]
 
 # Notes
 - The enviroment is configured for LTS versions before 12.
-- Therefore, too trigger builds as expected, downgrade to LTS 10, i.e.,
+- Therefore, to trigger builds as expected, downgrade to LTS 10, i.e.,
   - `nvm install 10`
   - `nvm use 10`
