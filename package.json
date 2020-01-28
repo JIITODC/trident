@@ -15,7 +15,8 @@
     "JIIT",
     "trident"
   ],
-  "author": "Akash Nimare <svnitakash@gmail.com> (http://akashnimare.in)",
+  "author": [ "Akash Nimare <svnitakash@gmail.com> (http://akashnimare.in)",
+             "Pranshu Srivastava <rexagod@gmail.com> (http://blog.rexagod.codes)" ],
   "license": "AGPLv3",
   "bugs": {
     "url": "https://github.com/JIITODC/trident/issues"
