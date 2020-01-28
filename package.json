@@ -1,25 +1,26 @@
 {
-  "name": "inout",
-  "version": "1.0.0",
-  "description": "landing page for inout fourth edition",
+  "name": "trident",
+  "version": "0.9.0",
+  "description": "landing page for trident inaugral edition",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hackinout/InOut4-landing.git"
+    "url": "git+https://github.com/JIITODC/trident.git"
   },
   "keywords": [
     "hackathon",
-    "inout"
+    "JIIT",
+    "trident"
   ],
   "author": "Akash Nimare <svnitakash@gmail.com> (http://akashnimare.in)",
-  "license": "MIT",
+  "license": "AGPLv3",
   "bugs": {
-    "url": "https://github.com/hackinout/InOut4-landing/issues"
+    "url": "https://github.com/JIITODC/trident/issues"
   },
-  "homepage": "https://github.com/hackinout/InOut4-landing#readme",
+  "homepage": "https://github.com/JIITODC/trident#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-uncss": "^1.0.6"
