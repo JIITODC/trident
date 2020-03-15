@@ -1,0 +1,29 @@
+{
+  "name": "trident",
+  "version": "0.9.0",
+  "description": "Trident's home -- Direct Pushes reserved for @rexagod (and owners) only. Send PRs instead.",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JIITODC/trident.git"
+  },
+  "keywords": [
+    "hackathon",
+    "jiit",
+    "jiitodc",
+    "trident"
+  ],
+  "author": "Pranshu Srivastava <rexagod@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JIITODC/trident/issues"
+  },
+  "homepage": "https://github.com/JIITODC/trident#readme"
+}
