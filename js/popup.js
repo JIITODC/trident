@@ -9,3 +9,6 @@ $(window).load(function() {
     $(".hover_bkgr_fricc").hide();
   });
 });
+
+var popupDiv = document.getElementsByClassName("popupDiv");
+popupDiv.style.wordWrap = "break-word";

@@ -14,6 +14,10 @@ body {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+div.popupDiv {
+  word-wrap: break-word;
+}
+
 ::-moz-selection {
   background: #000;
   color: #fff;
@@ -1158,7 +1162,7 @@ h5,
 .trigger_popup_fricc {
   cursor: pointer;
   font-size: 20px;
-  margin: 20px;
+  margin: 0px;
   display: inline-block;
   font-weight: bold;
 }
