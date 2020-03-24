@@ -38,7 +38,7 @@
             <!-- <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Tri<span class="text-primary">dent</span> </a></h1> -->
             <div>
               <a href="index.html">
-                <img src="images/Banner-min.png" width="200" height="90">
+                <img src="images/Banner-min.png"  width="232.67" height="90">
 
               </a>
             </div>
@@ -47,12 +47,13 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                 <li><a href="index.html" style="font-weight: bold;">Home</a></li>
-                <li><a href="about.html"style="font-weight: bold;">About</a></li>
+                <li><a href="about.html"style="font-weight: bold;">About Us</a></li>
+
                 <li><a href="judges.html"style="font-weight: bold;">Judges</a></li>
                 <li><a href="tracks.html"style="font-weight: bold;">Tracks</a></li>
                 <li class="active"><a href="diversity.html" style="font-weight: bold;">Diversity and Inclusion</a></li>
                 <li><a href="venue.html"style="font-weight: bold;">Venue</a></li>
-                <li class="cta"><a href="#"style="font-weight: bold;">Register</a></li>
+                <li class="cta"><a class="trigger_popup_fricc" style="font-weight: bold;">Register</a></li>
               </ul>
             </nav>
           </div>
@@ -62,7 +63,7 @@
       </div>
     </header>
 
-    <div class="site-section site-hero inner">  
+    <div style="height: 10em;">  
     </div>
 
     <div class="site-section">
@@ -127,20 +128,46 @@
 
     
       
-           <div class="row">
-          
-            <div class="col-md-12 text-center">
-              <div class="border-top pt-5">
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-4">
+              <h2 class="footer-heading text-uppercase mb-4">About Event</h2>
+              <p>Trident is a 24 hour Hackathon organized by the JIIT Open-Source Developers Circle.</p>
+            </div>
+            <div class="col-md-3 ml-auto">
+              <h2 class="footer-heading text-uppercase mb-4">Quick Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="code-of-conduct.html">Code of Conduct</a></li>
+                <li><a href="venue.html">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h2 class="footer-heading text-uppercase mb-4">Connect with Us</h2>
               <p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <a href="https://www.facebook.com/jiitodc/" class="p-2 pl-0"><span class="icon-facebook"></span></a>
+                <a href="https://www.twitter.com/jiitodc/" class="p-2"><span class="icon-twitter"></span></a>
+                <a href="https://www.linkedin.com/company/jodc" class="p-2"><span class="icon-linkedin"></span></a>
+                <a href="https://discord.gg/BAhkzAy" class="p-2"><i class="fab fa-discord"></i></a>
               </p>
             </div>
           </div>
-        </div>
-      </div>
-    </footer>
+          
+               <div class="row">
+              
+                <div class="col-md-12 text-center">
+                  <div class="border-top pt-5">
+                  <p>
+                   
+                  Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a> and <a href="https://github.com/JIITODC" target="_blank" >JODC</a>
+                   
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
     
   </div>
 
@@ -157,6 +184,18 @@
   <script src="js/aos.js"></script>
 
   <script src="js/main.js"></script>
-    
+  
+  <!--WILL REMOVE WHEN REGISTRATION STARTS-->
+  <script src="js/popup.js">
+  </script>
+  <div class="hover_bkgr_fricc">
+    <span class="helper"></span>
+    <div  class="popupDiv">
+        <div class="popupCloseButton">&times;</div>
+        <p style="font-weight: bold; color: red; font-size: 23px;">Registrations will start soon!</p>
+    </div >
+  </div>
+
+  
   </body>
 </html>
