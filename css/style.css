@@ -9,6 +9,7 @@ body {
   font-weight: 300;
   font-size: 1rem;
   background: #000000;
+<<<<<<< HEAD
   font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -17,6 +18,9 @@ body {
 div.popupDiv {
   word-wrap: break-word;
 }
+=======
+  font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+>>>>>>> parent of 5882d54... add 'How to reach' to 'Venue' page
 
 ::-moz-selection {
   background: #000;
